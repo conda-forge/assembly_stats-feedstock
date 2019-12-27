@@ -1,5 +1,5 @@
 {% set name = "assembly_stats" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 4393e3007a6d8674ff32348ae33a5e013a38db5452e86ab4b4b86883aab63e96
+  sha256: 5ef35e04b5d86acea839b04fcccd2a73e64e559ea31a8c256de8f0dda78e6968
 
 build:
   number: 0
